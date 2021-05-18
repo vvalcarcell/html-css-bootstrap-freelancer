@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color: teal;
+}
+
+header {
+    height: 200px;
+    background-color: pink;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
