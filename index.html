@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Bootstrap-freelancer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -68,10 +70,10 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-box">
         <div class="container">
             <div class="row justify-content-md-center">
-                <div class="portfolio">ABOUT</div>
+                <h1 class="col-12">ABOUT</h1>
                 <div class="text col-12 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
                     consequatur cupiditate voluptatibus dolorem veniam, dignissimos omnis, sapiente excepturi earum
                     impedit illo cumque assumenda, dolores ab nulla maiores quam aperiam inventore.
@@ -80,19 +82,25 @@
                     consequatur cupiditate voluptatibus dolorem veniam, dignissimos omnis, sapiente excepturi earum
                     impedit illo cumque assumenda, dolores ab nulla maiores quam aperiam inventore.
                 </div>
-                <div class="portfolio">Download</div>
+                <div class="col-12 centered">
+                    <button type="button" id="download" class="btn btn-outline-light">Download</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="portfolio">CONTACT ME</div>
-        <div class="info row justify-content-center">
-            <div class="col-12 col-md-10">blablabla</div>
-            <div class="col-12 col-md-10">blablabla</div>
-            <div class="col-12 col-md-10">blablabla</div>
-            <div class="col-12 col-md-10">blablabla</div>
-            <div class="col-12 col-md-10">Send</div>
+    <div class="img container">
+        <h1>CONTACT ME</h1>
+        <div class="row justify-content-center">
+            <form class="contact-form col-12 col-md-10">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Phone Number">
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
+                <div class="col-12">
+                    <button type="button" id="send" class="btn btn-custom-color">Send</button>
+                </div>
+            </form>
         </div>
     </div>
 

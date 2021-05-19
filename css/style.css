@@ -16,16 +16,18 @@
 }
 
 /*  ----- END NAVBAR ----  */
+* {
+    font-family: 'Montserrat', serif;
+}
 
 .container-box {
     background-color: #19bc9b;
+    color: white;
 }
 
 header {
     text-align: center;
     margin-top: 56px;
-    color: white;
-    padding: 20px;
 }
 
 #avatar {
@@ -33,18 +35,22 @@ header {
 }
 
 h1, h5 {
-    margin: 10px 0;
+    margin: 20px 0;
+    text-align: center;
 }
 
-header h1 {
+h1 {
     font-weight: bold;
 }
 
-.img.container {
-    padding-top: 20px;
-}
-.img.container h1 {
-    text-align: center;
+/* ----- STELLA -----*/
+
+
+/* ------------------- */
+
+.img.container, .container-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .icon {
@@ -58,9 +64,43 @@ img {
 }
 
 .text {
-    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
-.info > div {
-    border-bottom: 1px solid black;
+#download {
+    width: 150px;
 }
+
+.centered {
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.contact-form ::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.btn-custom-color {
+    background-color: #19bc9b;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-custom-color:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
