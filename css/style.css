@@ -87,7 +87,7 @@ img {
 }
 
 #download {
-    width: 150px;
+    width: 180px;
 }
 
 #download i {
@@ -135,19 +135,10 @@ footer {
     padding-bottom: 50px;
 }
 
-/* .item-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 footer ul {
     list-style: none;
     padding: 0;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 footer li {
@@ -159,6 +150,12 @@ footer li {
     align-items: center;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text a {
